@@ -92,4 +92,34 @@ Then reboot.
 
 ### Touchpad
 
-TBD
+Install `libinput`
+
+```
+sudo apt install libinput-tools
+```
+
+See if sensor is even working:
+
+```
+sudo libinput measure touchpad-pressure
+```
+
+Then, create a quirk file:
+
+```
+sudo mkdir -p /etc/libinput
+sudo gedit /etc/libinput/local-overrides.quirks
+```
+
+And, in the file, write
+
+```
+[Microsoft Surface Laptop Studio Touchpad]
+MatchVendor=0x045E
+MatchProduct=0x09AF
+MatchUdevType=touchpad
+AttrPressureRange=25:10
+AttrPalmPressureThreshold=500
+```
+
+Then reboot.
