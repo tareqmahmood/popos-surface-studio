@@ -123,3 +123,8 @@ AttrPalmPressureThreshold=500
 ```
 
 Then reboot.
+
+# Credits
+
+* https://github.com/linux-surface/linux-surface
+* https://ostechnix.com/dual-boot-windows-and-pop-os/
