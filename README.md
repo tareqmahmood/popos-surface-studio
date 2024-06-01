@@ -88,6 +88,8 @@ sudo apt purge ~nnvidia
 sudo apt install system76-driver-nvidia
 ```
 
+Then reboot.
+
 ### Touchpad
 
 TBD
