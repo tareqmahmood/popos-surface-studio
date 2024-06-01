@@ -1,5 +1,7 @@
 # Pop! OS in Surface Studio
 
+This is a very rough write-up of how I installed Pop! OS in Surface Studio (2021).
+
 ## Steps from linux-surface Repository
 
 First you need to import the keys we use to sign packages.
