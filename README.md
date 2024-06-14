@@ -126,6 +126,10 @@ AttrPalmPressureThreshold=500
 
 Then reboot.
 
+# Known Issues
+
+* Not waking up after closing the lid (made me drop this entirely 🥲)
+
 # Credits
 
 * https://github.com/linux-surface/linux-surface
